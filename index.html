@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Four card feature section</title>
+  </head>
+  <body class="font-poppins bg-veryLightGray md:grid md:place-items-center">
+    <div
+      class="flex flex-col text-center my-16 mx-8 md:grid md:place-items-center"
+    >
+      <!-- Heading Text Block -->
+      <div class="self-center">
+        <header class="text-4xl text-veryDarkBlue">
+          <div class="font-extralight">Reliable, efficient delivery</div>
+          <div class="mt-4 font-semibold">Powered by Technology</div>
+        </header>
+        <p class="text-grayishBlue mt-6 max-w-xl">
+          Our Artificial Intelligence powered tools use millions of project data
+          points to ensure that your project is successful
+        </p>
+      </div>
+
+      <!-- Cards Section -->
+      <section
+        class="flex flex-col text-left mt-16 md:max-w-5xl md:grid md:grid-cols-3 md:gap-x-6"
+      >
+        <!-- Card 1 -->
+        <div
+          class="relative bg-white shadow-xl p-8 mb-8 overflow-hidden rounded-lg md:h-fit md:self-center"
+        >
+          <div class="absolute top-0 left-0 right-0 h-1 w-full bg-cyan"></div>
+          <h1 class="text-xl text-veryDarkBlue font-semibold">Supervisor</h1>
+          <p class="mt-4 text-grayishBlue">
+            Monitors activity to identify project roadblocks
+          </p>
+          <img
+            class="float-right mt-8"
+            src="./images/icon-supervisor.svg"
+            alt="supervisor icon"
+          />
+        </div>
+        <div>
+          <!-- Card 2 -->
+          <div
+            class="relative bg-white shadow-xl p-8 mb-8 overflow-hidden rounded-lg"
+          >
+            <div class="absolute top-0 left-0 right-0 h-1 w-full bg-red"></div>
+            <h1 class="text-xl text-veryDarkBlue font-semibold">
+              Team Builder
+            </h1>
+            <p class="mt-4 text-grayishBlue">
+              Scans our talent network to create the optimal team for your
+              project
+            </p>
+            <img
+              class="float-right mt-8"
+              src="./images/icon-team-builder.svg"
+              alt="Team icon"
+            />
+          </div>
+          <!-- Card 3 -->
+          <div
+            class="relative bg-white shadow-xl p-8 mb-8 overflow-hidden rounded-lg"
+          >
+            <div
+              class="absolute top-0 left-0 right-0 h-1 w-full bg-orange"
+            ></div>
+            <h1 class="text-xl text-veryDarkBlue font-semibold">Karma</h1>
+            <p class="mt-4 text-grayishBlue">
+              Regularly evaluates our talent to ensure quality
+            </p>
+            <img
+              class="float-right mt-8"
+              src="./images/icon-karma.svg"
+              alt="karma icon"
+            />
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div
+          class="relative bg-white shadow-xl p-8 mb-8 overflow-hidden rounded-lg md:h-fit md:self-center"
+        >
+          <div class="absolute top-0 left-0 right-0 h-1 w-full bg-blue"></div>
+          <h1 class="text-xl text-veryDarkBlue font-semibold">Calculator</h1>
+          <p class="mt-4 text-grayishBlue">
+            Uses data from past projects to provide better delivery estimates
+          </p>
+          <img
+            class="float-right mt-8"
+            src="./images/icon-calculator.svg"
+            alt="calculator icon"
+          />
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
