@@ -37,7 +37,6 @@ Users should be able to:
 - TailwindCSS
 - CSS3
 - Mobile-first workflow
-- Javascript - for email validation
 
 ### What I learned
 
